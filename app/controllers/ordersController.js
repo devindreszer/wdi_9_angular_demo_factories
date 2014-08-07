@@ -15,10 +15,8 @@
         })
         .error(function(data, status, headers, config){
           console.log("Error getting a customer from the remote api");
-        alert();ert("Error getting a customer from the remote api");
-
+          alert("Error getting a customer from the remote api");
         });
-
     }
 
     init();
